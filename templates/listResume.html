@@ -31,7 +31,7 @@ List Resume
               <a href="{% url 'download' %}" class="btn btn-primary">Download</a>
               <form method="post" action="{% url 'delete_resume' %}">
                 {% csrf_token %}
-                <button type="submit" class="delete-button">Delete</button>
+                <button type="submit" class="delete-button" style="background-color: red; color: white;">Delete</button>
               </form>
             </div>
           </div>
